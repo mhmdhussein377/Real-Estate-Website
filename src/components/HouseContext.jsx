@@ -120,7 +120,7 @@ const HouseContextProvider = ({children}) => {
             setPrice,
             houses,
             loading,
-            handleClick
+            handleClick,
         }}>
             {children}
         </HouseContext.Provider>
